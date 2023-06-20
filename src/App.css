@@ -1,0 +1,203 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formgp {
+  padding: 5vh;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.buttons button {
+  margin-right: 4vw;
+}
+
+.group1 {
+  display: flex;
+  flex-direction: row;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  border-width: 3px;
+  border-color: black;
+}
+.submit {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.feedback {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#b1 {
+  background-color: #2f5fad;
+  border: 0;
+  color: white;
+  border-radius: 4px;
+}
+
+.Input {
+  margin: 10px;
+  color: #0d6efd;
+  background-color: white;
+  border-color: #0d6efd;
+  border-radius: 4px;
+}
+
+#CPdiv {
+  width: 100%;
+}
+.midd {
+  width: 82vw;
+  /* height: 95vh; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navv {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+.outer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20vh;
+}
+.header {
+  width: 70vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main {
+  width: 70vw;
+}
+.mainn {
+  display: flex;
+  justify-content: center;
+}
+.header2 {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.thish4 {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    "sans-serif";
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.signs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+.heroSt {
+  width: 80vw;
+}
+.herostOut {
+  width: 100vw;
+}
+#all {
+  position: absolute;
+  z-index: 15;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.466);
+  height: 200vh;
+  display: none;
+}
+#popup {
+  display: none;
+  position: absolute;
+  z-index: 16;
+  left: calc(50% - 41vw);
+  top: 25%;
+}
+.CountSubmits {
+  height: 7vh;
+}
+.choose {
+  width: 20vw;
+}
+.table1 {
+  width: 80vw;
+}
+.sub {
+  width: 15vw;
+}
+.numericc {
+  width: 20vw;
+}
+.divv {
+  width: 30vw;
+  justify-content: space-around;
+}
+.navLink {
+  list-style: none;
+  width: 10vw;
+  height: 5vh;
+  text-decoration: none;
+  border-radius: 6px;
+}
